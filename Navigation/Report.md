@@ -76,7 +76,7 @@ Environment solved in 525 episodes!	Average Score: 13.00
 Total Training time = 14.6 min
 ```
 
-![Training Score](images/Score.png)
+![Training Score](Images/Score.png)
 
 
 ### Ideas For Future Network
