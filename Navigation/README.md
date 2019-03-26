@@ -16,7 +16,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 - **`3`** - turn right.
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
-### Repository structure
+### Repository Structure
 The code is structured as follows: 
 * **Navigation.ipynb**: This is where the _Deep Q-Learning agent_ is trained.
 * **dqn_agent.py**: This module implements a class to represent a _Deep Q-Learning agent_.
