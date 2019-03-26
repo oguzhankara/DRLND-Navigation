@@ -15,6 +15,22 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 - **`2`** - turn left.
 - **`3`** - turn right.
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
+
+### Repository structure
+The code is structured as follows: 
+* **Navigation.ipynb**: This is where the _Deep Q-Learning agent_ is trained.
+* **dqn_agent.py**: This module implements a class to represent a _Deep Q-Learning agent_.
+* **model.py**: This module contains the implementation of the neural network approximating the action value function.
+* **checkpoint.pth**: This is the binary containing the trained neural network weights.
+* **report.md**: Project report and result analysis.
+
+
+### Dependencies
+* python 3.6
+* numpy: Install with 'pip install numpy'.
+* PyTorch: Install by following the instructions [here](https://github.com/reinforcement-learning-kr/pg_travel/wiki/Installing-Unity-ml-agents-on-Windows).
+* ml-agents: Install by following instructions [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation-Windows.md).
+
 ### Getting Started
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
